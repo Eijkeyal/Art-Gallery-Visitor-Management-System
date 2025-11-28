@@ -30,6 +30,6 @@ A comprehensive Java desktop application for managing art gallery operations, in
 - **Data Recovery**: Session persistence and data backup
   
 ## 🏗️ System Architecture
-ArtGalleryVisitor (Abstract Class)
+ArtGalleryVisitor (Abstract Class)<br>
 ├── StandardVisitor (Concrete Class)<br>
 └── EliteVisitor (Concrete Class)
