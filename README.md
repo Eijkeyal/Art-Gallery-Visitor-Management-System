@@ -33,3 +33,17 @@ A comprehensive Java desktop application for managing art gallery operations, in
 ArtGalleryVisitor (Abstract Class)<br>
 ├── StandardVisitor (Concrete Class)<br>
 └── EliteVisitor (Concrete Class)
+
+### Core Classes
+
+- **ArtGalleryVisitor**: Abstract base class with common attributes and methods
+- **StandardVisitor**: Standard membership with basic benefits and upgrade options
+- **EliteVisitor**: Premium membership with exclusive privileges
+
+## 💻 Technologies Used
+
+- **Java SE** - Core programming language
+- **Java Swing** - Graphical User Interface
+- **Object-Oriented Programming** - Inheritance, Polymorphism, Abstraction, Encapsulation
+- **File I/O** - Data persistence management
+- **Exception Handling** - Robust error management
