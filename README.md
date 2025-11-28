@@ -31,5 +31,5 @@ A comprehensive Java desktop application for managing art gallery operations, in
   
 ## 🏗️ System Architecture
 ArtGalleryVisitor (Abstract Class)
-├── StandardVisitor (Concrete Class)
+├── StandardVisitor (Concrete Class)<br>
 └── EliteVisitor (Concrete Class)
