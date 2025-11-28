@@ -29,7 +29,7 @@ A comprehensive Java desktop application for managing art gallery operations, in
 - **File I/O**: Persistent data storage using text files
 - **Data Recovery**: Session persistence and data backup
 
-  ## 🎮 Usage Examples
+## 🎮 Usage Examples
 
 ### Creating and Managing a Standard Visitor
 
@@ -97,6 +97,7 @@ visitor.generateBill();
 
 // 7. Display visitor details
 visitor.display();
+
 Output Examples
 Successful Purchase:
 
