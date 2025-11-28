@@ -28,3 +28,8 @@ A comprehensive Java desktop application for managing art gallery operations, in
 ### Data Management
 - **File I/O**: Persistent data storage using text files
 - **Data Recovery**: Session persistence and data backup
+  
+## 🏗️ System Architecture
+ArtGalleryVisitor (Abstract Class)
+├── StandardVisitor (Concrete Class)
+└── EliteVisitor (Concrete Class)
