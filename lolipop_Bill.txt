@@ -1,0 +1,9 @@
+===== ART GALLERY BILL =====
+Visitor ID: 2
+Visitor Name: lolipop
+Artwork Name: topi
+Artwork Price: 1000.0
+Discount Amount: 600.0
+Final Price: 0.0
+============================
+

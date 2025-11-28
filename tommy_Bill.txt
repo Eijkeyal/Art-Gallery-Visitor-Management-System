@@ -1,0 +1,9 @@
+===== ART GALLERY BILL =====
+Visitor ID: 1
+Visitor Name: tommy
+Artwork Name: MonaLisa
+Artwork Price: 1000.0
+Discount Amount: 600.0
+Final Price: 0.0
+============================
+

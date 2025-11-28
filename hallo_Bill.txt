@@ -1,0 +1,9 @@
+===== ART GALLERY BILL =====
+Visitor ID: 3
+Visitor Name: hallo
+Artwork Name: torpe
+Artwork Price: 1000.0
+Discount Amount: 100.00000149011612
+Final Price: 899.9999985098839
+============================
+
