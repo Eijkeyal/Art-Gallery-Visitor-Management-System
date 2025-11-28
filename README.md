@@ -148,3 +148,35 @@ ArtGalleryVisitor (Abstract Class)<br>
 1. Clone the repository:
 ```bash
 git clone https://github.com/Eijkeyal/Art-Gallery-Visitor-Management-System.git
+
+```
+## 📈 Project Status
+✅ Completed – ready to use.  
+🔧 Future improvements are possible, but no further updates are currently planned.
+  
+## 👤 Author  
+**Eijkeyal Pakhrin**
+– Developer & Maintainer
+
+- GitHub: [Eijkeyal](https://github.com/Eijkeyal)  
+- LinkedIn: [Eijkeyal Pakhrin](https://www.linkedin.com/in/eijkeyalpakhrin)
+- Credly: [Eijkeyal Pakhrin](https://credly.com/users/eijkeyal-pakhrin)
+  
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!  
+If you want to contribute:  
+1. Fork the repository  
+2. Create a new branch (`git checkout -b feature-name`)  
+3. Make your changes and commit (`git commit -m "Add feature"`)  
+4. Push to the branch (`git push origin feature-name`)  
+5. Open a Pull Request
+
+🙌 Acknowledgements
+- **Java Swing Framework** - For providing robust GUI components
+- **OOP Principles** - Inheritance, Polymorphism, Abstraction, and Encapsulation that formed the core architecture
+- **File I/O Concepts** - For enabling persistent data storage
+- **Software Design Patterns** - That inspired the class hierarchy and method organization
+- **Open Source Community** - For countless resources and examples that guided the implementation
+
+⭐ *If you like this project, don’t forget to star the repo!* ⭐
