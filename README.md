@@ -29,10 +29,16 @@ A comprehensive Java desktop application for managing art gallery operations, in
 - **File I/O**: Persistent data storage using text files
 - **Data Recovery**: Session persistence and data backup
 
-  // Create and manage a Standard Visitor
+  ## 🎮 Usage Examples
+
+### Creating and Managing a Standard Visitor
+
+```java
+// Create a Standard Visitor
 StandardVisitor visitor = new StandardVisitor(101, "John Doe", "Male", 
                                              "1234567890", "2024-01-15", 
                                              1000.0, "Standard");
+
 // Log visits and make purchases
 visitor.logVisit();
 String result = visitor.buyProduct("Starry Night", 5000.0);
@@ -40,6 +46,58 @@ visitor.generateBill();
 
 // Handle cancellations
 String cancelResult = visitor.cancelProduct("Starry Night", "Change of mind");
+
+// Create an Elite Visitor
+EliteVisitor eliteVisitor = new EliteVisitor(201, "Jane Smith", "Female",
+                                            "9876543210", "2024-01-20",
+                                            2000.0, "Elite");
+
+// Log multiple visits and purchases
+eliteVisitor.logVisit();
+eliteVisitor.logVisit();
+String purchaseResult = eliteVisitor.buyProduct("Mona Lisa", 10000.0);
+eliteVisitor.generateBill();
+
+// Check for elite benefits
+boolean hasAdvisor = eliteVisitor.assignPersonalArtAdvisor();
+boolean hasEventAccess = eliteVisitor.exclusiveEventAccess();
+// 1. Create visitor
+StandardVisitor visitor = new StandardVisitor(101, "John Doe", "Male", 
+                                             "1234567890", "2024-01-15", 
+                                             1000.0, "Standard");
+
+// 2. Log multiple visits to qualify for discount upgrade
+visitor.logVisit();
+visitor.logVisit();
+visitor.logVisit();
+visitor.logVisit();
+visitor.logVisit(); // 5th visit - qualifies for discount upgrade
+
+// 3. Check and apply discount upgrade
+boolean isUpgraded = visitor.checkDiscountUpgrade();
+
+// 4. Purchase artwork with upgraded discount
+String purchaseResult = visitor.buyProduct("The Persistence of Memory", 8000.0);
+
+// Writing visitor data to file
+try {
+    FileWriter writer = new FileWriter("visitors.txt", true);
+    writer.write(visitor.getVisitorId() + "," + visitor.getFullName() + "," + 
+                 visitor.getTicketType() + "," + visitor.getRewardPoints() + "\n");
+    writer.close();
+} catch (IOException e) {
+    System.out.println("Error writing to file: " + e.getMessage());
+}
+// 5. Calculate benefits
+double discount = visitor.calculateDiscount();
+double rewardPoints = visitor.calculateRewardPoint();
+
+// 6. Generate bill
+visitor.generateBill();
+
+// 7. Display visitor details
+visitor.display();
+  
 
 ## 🏗️ System Architecture
 ArtGalleryVisitor (Abstract Class)<br>
