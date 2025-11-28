@@ -97,7 +97,27 @@ visitor.generateBill();
 
 // 7. Display visitor details
 visitor.display();
-  
+Output Examples
+Successful Purchase:
+
+Purchase successful: Starry Night for 5000.0
+Discount Applied: 500.0
+Final Price: 4500.0
+Reward Points Earned: 22500.0
+Cancellation Output:
+
+Cancellation successful for: Starry Night
+Refundable Amount: 4500.0 (after 10% cancellation fee)
+Reason: Change of mind
+
+This markdown format provides:
+- Clear code blocks with proper syntax highlighting
+- Multiple practical examples
+- Complete workflow demonstration
+- Expected output examples
+- Easy copy-paste functionality for users
+
+```
 
 ## 🏗️ System Architecture
 ArtGalleryVisitor (Abstract Class)<br>
