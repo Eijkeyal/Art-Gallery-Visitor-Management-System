@@ -47,3 +47,13 @@ ArtGalleryVisitor (Abstract Class)<br>
 - **Object-Oriented Programming** - Inheritance, Polymorphism, Abstraction, Encapsulation
 - **File I/O** - Data persistence management
 - **Exception Handling** - Robust error management
+## 📥 Installation & Setup
+
+### Prerequisites
+- Java JDK 8 or higher
+- Git (for cloning repository)
+
+### Installation Steps
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/art-gallery-management.git
