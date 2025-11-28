@@ -28,7 +28,19 @@ A comprehensive Java desktop application for managing art gallery operations, in
 ### Data Management
 - **File I/O**: Persistent data storage using text files
 - **Data Recovery**: Session persistence and data backup
-  
+
+  // Create and manage a Standard Visitor
+StandardVisitor visitor = new StandardVisitor(101, "John Doe", "Male", 
+                                             "1234567890", "2024-01-15", 
+                                             1000.0, "Standard");
+// Log visits and make purchases
+visitor.logVisit();
+String result = visitor.buyProduct("Starry Night", 5000.0);
+visitor.generateBill();
+
+// Handle cancellations
+String cancelResult = visitor.cancelProduct("Starry Night", "Change of mind");
+
 ## 🏗️ System Architecture
 ArtGalleryVisitor (Abstract Class)<br>
 ├── StandardVisitor (Concrete Class)<br>
