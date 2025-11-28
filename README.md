@@ -147,4 +147,4 @@ ArtGalleryVisitor (Abstract Class)<br>
 ### Installation Steps
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/art-gallery-management.git
+git clone https://github.com/Eijkeyal/Art-Gallery-Visitor-Management-System.git
